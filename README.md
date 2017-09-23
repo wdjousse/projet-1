@@ -1,1 +1,2 @@
 # projet
+Autheur : Sebastien Gadot
