@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: RcHM9Bif/miY384/cK3FXSvKbTdf6kZRfFeFl/nR8EPjh6Sxv7Em+66nZuSCEn8URZMPin3TDNmmzxLKJmlCZzwCGQ8eyXYB+pWIY9dfNv1l2U/wKSNFqgBJk5kzP2YTGYBkuZMiDOrzbIMIMU+v30dBBSCcyXwYbzz2ZXTihwt3bqi92XDBD4A0LBLR1msMDdnUesHx2PqGFLsl0ckfloMYBhyTMsmcMYw8y2t+xRj3EYkVs5C1VBjUDehY1y0ht4Kouoy/2P1L0/OFpHXs1sF3VpZI62rIpfPOrdztrgd9QF+0+v44++9x5iRagvOQugCWVvCqNV6MBzEkq+nbzzoZqoDMrEqV8Ag+nsZN6Ru4MqPdUqY8yZSi+EP5N0RPR5X6Lokyu7y64gTSdYm0xhen92tJRsn/UB6KbkTT53oI66jqfOkHajSaFjxgyfrIeZ6Gf8/DaIJkL3UaJyuvusFQW12JtmTmqKrBflleJGm7o1biq4ygPkzOAI5AvREcMBKuWNni4P5tF69sIXIzMBAN7/7DLGJnkyH7ZMhwvN1O0x/r/xYYvvC80r2oHFBCHuui3OPuKASb2ZbK5dgymvoAphZJd04d0JQonJsgbQpSfxWrvg/fqflH91a149pA0gvbxkskpF51uH2W62rgwtlII7aL/r/p+YcNQ2cy9mw=
+  app: lpa2sgadot
+  on:
+    repo: LPA2-Automne2016/projet
