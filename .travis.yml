@@ -8,3 +8,4 @@ deploy:
   app: lpa2sgadot
   on:
     repo: LPA2-Automne2016/projet
+  run: "rake db:migrate"
